@@ -1,4 +1,4 @@
-murt:simply merged pr for deep sleep and use_srm_saves option for tg5040 ONLY. this is an incomplete package if you're tryna full install cross-device compatible minui
+murt:simply merged pr for deep sleep and use_srm_saves option for tg5040 ONLY, for myself. this is an incomplete package if you're tryna full install cross-device compatible minui
 
 # MinUI
 
