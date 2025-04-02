@@ -1,3 +1,5 @@
+simply merged pr for deep sleep and use_srm_saves option
+
 # MinUI
 
 MinUI is a focused, custom launcher and libretro frontend for [a variety of retro handhelds](#supported-devices).
