@@ -1,4 +1,4 @@
-simply merged pr for deep sleep and use_srm_saves option
+murt:simply merged pr for deep sleep and use_srm_saves option
 
 # MinUI
 
