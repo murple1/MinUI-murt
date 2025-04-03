@@ -1,6 +1,20 @@
-simply merged pr for deep sleep and use_srm_saves option for tg5040 ONLY, for myself. this is an incomplete package if you're tryna full install cross-device compatible minui
+simply merged pr for deep sleep and use_srm_saves option for tg5040 ONLY, originally for myself. this is an incomplete package if you're tryna full install cross-device compatible minui
 
-useful to copy into a vanilla minui build or fork (e.g. PakUI). dragging the minui.zip to the base SDCARD and letting it "update" would probably work but i would HIGHLY recommend unzipping and manually moving over the files from minui.zip
+this is useful to copy into a vanilla minui build or fork (e.g. PakUI). 
+
+Limitations. if you can fix either or both, please share!:
+- sleep on tapping the power button does not work from any custom paks including retroarch, only from the menus and micarch based emulators
+- the LEDs stay on for the 2 mins of faux-sleep before the device actually goes into deep sleep. not a bug so much as an annoyance.
+
+Instructions (not detailed b/c if you generally don't kmpw
+what you're changing I dont think it's a good idea to use this (for now). :
+
+if youre looking to add this to an existing installation of PakUI or other built on top of MinUI (NOT NextUI) I would HIGHLY recommend unzipping and manually moving over the core files yourself. So:
+1) download the latest release (disregard my name/versioning choices lol)
+2) unzip and then unzip MinUI.zip. 
+3) Copy over both .system and .tmp_update to your base SDCard. In my usage, I didnt replace the Emus folder in .system, and if the original cores folder contains different cores than this release, I'd suggest merging rather than replacing. 
+
+dragging the minui.zip to the base SDCARD and letting it "update" would probably work but i would HIGHLY recommend unzipping and manually moving over the files from minui.zip so you know what youre changing. 
 
 Limitations. if you can fix either or both, please share!:
 - sleep on tapping the power button does not work from any custom paks including retroarch, only from the menus and micarch based emulators
@@ -8,7 +22,7 @@ Limitations. if you can fix either or both, please share!:
 
 to use srm save files (save the step of converting b/t minUI and RetroArch), put a blank use_srm_saves file in .userdata/shared. I've included a blank file in the release
 
-to build: 
+to build source: 
 get your git got and 
 
 PLATFORMS="tg5040" make setup tg5040    # for just the core minui for tg5040 without emulators / extras
