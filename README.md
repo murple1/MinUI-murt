@@ -1,6 +1,6 @@
 simply merged pr for deep sleep and use_srm_saves option for tg5040 ONLY, for myself. this is an incomplete package if you're tryna full install cross-device compatible minui
 
-useful to copy into a vanilla minui build or fork (e.g. PakUI)
+useful to copy into a vanilla minui build or fork (e.g. PakUI). dragging the minui.zip to the base SDCARD and letting it "update" would probably work but i would HIGHLY recommend unzipping and manually moving over the files from minui.zip
 
 Limitations. if you can fix either or both, please share!:
 - sleep on tapping the power button does not work from any custom paks including retroarch, only from the menus and micarch based emulators
