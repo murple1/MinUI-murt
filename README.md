@@ -18,11 +18,7 @@ if youre looking to add this to an existing installation of PakUI or other built
 
 dragging the minui.zip to the base SDCARD and letting it "update" would probably work but i would HIGHLY recommend unzipping and manually moving over the files from minui.zip so you know what youre changing. 
 
-Limitations. if you can fix either or both, please share!:
-- sleep on tapping the power button does not work from any custom paks including retroarch, only from the menus and micarch based emulators
-- the LEDs stay on for the 2 mins of faux-sleep before the device actually goes into deep sleep. not a bug so much as an annoyance.
-
-to use srm save files (save the step of converting b/t minUI and RetroArch), put a blank use_srm_saves file in .userdata/shared. I've included a blank file in the release
+to use srm save files (saves the step of converting b/t minUI and RetroArch), put a blank use_srm_saves file in .userdata/shared. I've included a blank file in the release
 
 to build source: 
 get your git got and 
@@ -30,6 +26,11 @@ get your git got and
 PLATFORMS="tg5040" make setup tg5040    # for just the core minui for tg5040 without emulators / extras
 PLATFORMS="tg5040" make all    # for a full build for just tg 5040
 
+
+
+bye have fun
+
+--------------
 # MinUI
 
 MinUI is a focused, custom launcher and libretro frontend for [a variety of retro handhelds](#supported-devices).
