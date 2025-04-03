@@ -30,7 +30,7 @@ PLATFORMS="tg5040" make all    # for a full build for just tg 5040
 
 NOTE:
 
-Importantly, all credit to folks who actually did the work. someone else made minui, and others wrote the code for the modifications included here, linked below. 
+Importantly, all credit to folks who actually did the work. i obvi didnt make minui, and others wrote the code for the modifications included here, linked below. 
 
 https://github.com/shauninman/MinUI/pull/24
 
