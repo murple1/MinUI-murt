@@ -6,6 +6,8 @@ Limitations. if you can fix either or both, please share!:
 - sleep on tapping the power button does not work from any custom paks including retroarch, only from the menus and micarch based emulators
 - the LEDs stay on for the 2 mins of faux-sleep before the device actually goes into deep sleep. not a bug so much as an annoyance.
 
+to use srm save files (save the step of converting b/t minUI and RetroArch), put a blank use_srm_saves file in .userdata/shared. I've included a blank file in the release
+
 to build: 
 get your git got and 
 
