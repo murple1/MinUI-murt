@@ -1,3 +1,17 @@
+simply merged pr for deep sleep and use_srm_saves option for tg5040 ONLY, for myself. this is an incomplete package if you're tryna full install cross-device compatible minui
+
+useful to copy into a vanilla minui build or fork (e.g. PakUI)
+
+Limitations. if you can fix either or both, please share!:
+- sleep on tapping the power button does not work from any custom paks including retroarch, only from the menus and micarch based emulators
+- the LEDs stay on for the 2 mins of faux-sleep before the device actually goes into deep sleep. not a bug so much as an annoyance.
+
+to build: 
+get your git got and 
+
+PLATFORMS="tg5040" make setup tg5040    # for just the core minui for tg5040 without emulators / extras
+PLATFORMS="tg5040" make all    # for a full build for just tg 5040
+
 # MinUI
 
 MinUI is a focused, custom launcher and libretro frontend for [a variety of retro handhelds](#supported-devices).
