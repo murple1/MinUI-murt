@@ -6,8 +6,8 @@ Limitations. if you can fix either or both, please share!:
 - sleep on tapping the power button does not work from any custom paks including retroarch, only from the menus and micarch based emulators
 - the LEDs stay on for the 2 mins of faux-sleep before the device actually goes into deep sleep. not a bug so much as an annoyance.
 
-Instructions (not detailed b/c if you generally don't kmpw
-what you're changing I dont think it's a good idea to use this (for now). :
+Instructions below. They're not detailed b/c if you generally don't know
+what you're changing I dont think it's a good idea to use this (for now).
 
 if youre looking to add this to an existing installation of PakUI or other built on top of MinUI (NOT NextUI) I would HIGHLY recommend unzipping and manually moving over the core files yourself. So:
 1) download the latest release (disregard my name/versioning choices lol)
